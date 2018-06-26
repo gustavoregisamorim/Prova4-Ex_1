@@ -37,7 +37,7 @@ public class ProcessaLancamentos {
                 if((linha = reader.readLine())!= null )
                     return linha;
                 else
-                    return linha;
+                    return null;
     }
     
     private Lancamento processaLinha(String linha) throws ParseException{
